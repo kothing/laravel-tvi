@@ -12,8 +12,70 @@ Laravel TVI is a base CMS for creating & managing websites.
 - [Inertia](https://inertiajs.com/)
 
 
----------
+---
 
+## How to start
+
+**1. Clone From Github**
+```bash
+git clone https://github.com/lyove/laravel-tvi.git
+```
+
+**2. Go to that folder**
+```bash
+cd lara-cms
+```
+
+**3. Required Configuration**
+
+PHP  
+1. fileinfo extensions
+1. putenv() enable
+1. proc_open() enable
+
+Permission for directories. 
+1. storage 777
+1. bootstrap/cache 777
+1. public 777
+
+**4. Install Composer**
+```php
+composer install
+```
+
+**5. Create env file**
+```bash
+Create a .env file by cloning .env.example file
+```
+
+**6. Create a Database named**
+```bash
+laravel-cms
+```
+
+**7. Run Migration & Seed**
+```php
+php artisan migrate:fresh --seed
+```
+
+**10. Run On Local Machine**
+```bash
+php artisan serve
+```
+
+**11. Open Browser**
+```bash
+http://localhost:8000
+```
+
+**12. Go to CMS Portal**
+Login Now by giving this data
+```php
+Username: superadmin
+Password: 123456
+```
+
+---
 
 ## Screenshots
 
