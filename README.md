@@ -66,12 +66,13 @@ php artisan serve
 and open browser at `http://localhost:8000`
 
 
-**11. Go to CMS admin dashborad**
-Login Now by giving this data. You can find it in `database/seeders/UserRoleSeeder.php`
+**11. Go to CMS admin dashborad**  
+Login Now by giving this data.
 ```php
 Username: xxx
 Password: xxx
 ```
+You can find it in `database/seeders/UserRoleSeeder.php`
 
 ---
 
