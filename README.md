@@ -58,21 +58,19 @@ laravel-cms
 php artisan migrate:fresh --seed
 ```
 
-**10. Run On Local Machine**
+**10. Run On Local Machine**  
+start Laravel's local development server
 ```bash
 php artisan serve
 ```
+and open browser at `http://localhost:8000`
 
-**11. Open Browser**
-```bash
-http://localhost:8000
-```
 
-**12. Go to CMS Portal**
+**11. Go to CMS admin dashborad**
 Login Now by giving this data
 ```php
-Username: superadmin
-Password: 123456
+Username: xxx
+Password: xxx
 ```
 
 ---
