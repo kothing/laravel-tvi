@@ -67,7 +67,7 @@ and open browser at `http://localhost:8000`
 
 
 **11. Go to CMS admin dashborad**
-Login Now by giving this data
+Login Now by giving this data. You can find it in `database/seeders/UserRoleSeeder.php`
 ```php
 Username: xxx
 Password: xxx
