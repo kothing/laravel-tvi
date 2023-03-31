@@ -43,22 +43,27 @@ Permission for directories.
 composer install
 ```
 
-**5. Create env file**
+**5. Create and config env file**
 ```bash
 Create a .env file by cloning .env.example file
 ```
 
-**6. Create a Database named**
-```bash
-laravel-cms
+**6. Generate app APP_KEY**
+```
+php artisan key:generate
 ```
 
-**7. Run Migration & Seed**
+**7. Create a Database named**
+```bash
+your-database
+```
+
+**8. Run Migration & Seed**
 ```php
 php artisan migrate:fresh --seed
 ```
 
-**10. Run On Local Machine**  
+**9. Run On Local Machine**  
 start Laravel's local development server
 ```bash
 php artisan serve
@@ -66,7 +71,7 @@ php artisan serve
 and open browser at `http://localhost:8000`
 
 
-**11. Go to CMS admin dashborad**  
+**10. Go to CMS admin dashborad**  
 Login Now by giving this data.
 ```php
 Username: xxx
