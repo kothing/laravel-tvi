@@ -23,7 +23,7 @@ git clone https://github.com/lyove/laravel-tvi.git
 
 **2. Go to that folder**
 ```bash
-cd lara-cms
+cd laravel-tvi
 ```
 
 **3. Required Configuration**
