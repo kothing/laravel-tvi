@@ -15,9 +15,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if (!config('tvi.web.enabled')) {
-            return redirect(route('admin.index'));
-        }
+        // if (!config('tvi.web.enabled')) {
+        //    return redirect(route('admin.index'));
+        //}
 
         return Inertia::render('website/home/Index');
     }
