@@ -81,6 +81,16 @@ You can find it in `database/seeders/UserRoleSeeder.php`
 
 ---
 
+## Clear cache
+```
+php artisan cache:clear
+php artisan route:cache
+php artisan config:cache
+php artisan view:clear
+```
+
+---
+
 ## Screenshots
 
 **Homepage**
